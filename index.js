@@ -3,7 +3,7 @@ var libs = {
   Socks: require('socks'),
 
   // better HTTP for nodejs
-  request: require('request'),
+  request: require('throttled-request'),
 }
 
 /* Run tor locally (debian example: apt-get install tor)
