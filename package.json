@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "request": "^2.67.0",
-    "socks": "^1.1.8"
+    "socks": "^1.1.8",
+    "throttled-request": "^0.1.1"
   },
   "devDependencies": {
     "mocha": "^2.3.4"
@@ -17,7 +18,7 @@
   "email": "talmo.christian@gmail.com",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/talmobi/tor-request"
+    "type": "git",
+    "url": "https://github.com/talmobi/tor-request"
   }
 }
